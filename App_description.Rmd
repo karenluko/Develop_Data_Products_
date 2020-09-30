@@ -1,0 +1,10 @@
+---
+title: "Description"
+author: "Karen"
+date: "9/29/2020"
+output: html_document
+---
+     **Welcome to the "Meuse River - Chemical Composition" app!** This app helps you to compare heavy metal concentration as function of organic matter in topsoils of the Meuse River Flood plain. The complete data set is available in "meuse" from sp R package.
+        All you need to do is to select one among the available metals to see a plot wherein is possible to evaluate the influence of the organic matter on metal concentration in topsoils from four different crops.
+
+Refer to https://github.com/karenluko/Develop_Data_Products_ for the source code for ui.R and server.R files.
