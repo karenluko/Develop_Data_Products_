@@ -19,8 +19,6 @@ data_Hm<-data_Hm[which(!is.na(data_Hm$crops)),]
 # Define server logic required to plot various variables against lanuse
 shinyServer(function(input, output) {
   
-  # Compute the forumla text in a reactive expression since it is 
-  # shared by the output$caption and output$mpgPlot expressions
   formulaText <- reactive({
     paste("Selected metal:",input$variable, sep = " ")
   })
